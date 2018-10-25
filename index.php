@@ -1,6 +1,7 @@
 <!-- Cabecera de la Pagina -->
 <?php
 include('header.php');
+include('autenticacion.php');
 ?>
 
     <!-- Formulario -->

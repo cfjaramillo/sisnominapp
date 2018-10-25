@@ -2,12 +2,12 @@
 
 //Se incluye libreria de documentos PDF
 include("./fpdf/fpdf.php");
-
+include('autenticacion.php');
 
 //Conexión a Base de Datos
 $servername = "localhost";
 $username = "root";
-$password = "0000";
+$password = "";
 $db = "SISNOMINA";
 
 // Crear Conexion

@@ -14,3 +14,8 @@ CREATE TABLE IF NOT EXISTS nomina(
     total_devengado DECIMAL(15,2),
     fecha_registro DATE
 );
+
+CREATE TABLE IF NOT EXISTS usuario(
+    usuario VARCHAR(100),
+    clave VARCHAR(100)
+);

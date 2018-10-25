@@ -2,7 +2,7 @@
 
 //cabecera de la  Pagina
 include('index.php');
-
+include('autenticacion.php');
 
 //Datos que se obtienen del formulario
 $cedula = $_POST['cedula'];
@@ -37,7 +37,7 @@ $total = $base + $comision + $extrasdiurnas + $extrasnocturnas + $extrasdiurnasd
 //Conexión a Base de Datos
 $servername = "localhost";
 $username = "root";
-$password = "0000";
+$password = "";
 $db = "SISNOMINA";
 
 // Crear Conexion
